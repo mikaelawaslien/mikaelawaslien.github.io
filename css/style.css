@@ -1,0 +1,120 @@
+/* {
+	border: 1px solid red !important;
+} */
+
+/*===================================
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+===================================*/
+
+body {
+    background-image: url("../images/BG.jpg");
+	background-color: #F5F5F5;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #707070;
+}
+
+*a {
+    text-decoration: none;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.navbar li {
+    display: block;
+    float: left;
+    align-content: left;
+    text-align: center;
+    list-style: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: -4px;
+    margin-top: 57px;
+    color: #730000;
+}
+
+.navbar li:hover, a:hover {
+    background-color: #730000; /* originally #002165*/
+    color: #F5F5F5;
+} 
+
+.whitebg {
+    background-color: #F5F5F5;
+}
+
+.redbg {
+    display: flex;
+    height: 150px;
+    background-color: #F5F5F5;
+    margin-left: -30px;
+    margin-right: -30px;
+    box-shadow: 0px 10px 25px -7px black;
+}
+
+/*===================================*/
+
+.text-muted {
+    color: #730000;
+}
+
+.text-thin {
+    font-weight: 300;
+}
+
+.text-white {
+    color: #730000;
+}
+
+/*===================================*/
+
+.title-text {
+    margin-top: 19px;
+}
+
+.title-super {
+    font-size: 46px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.artportfolio {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.title-logo {
+    margin-top: 25px;
+
+}
+
+/*===================================*/
+
+.featuredartwork {
+	padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.featuredwork {
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+
+
