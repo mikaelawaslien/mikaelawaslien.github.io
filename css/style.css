@@ -44,9 +44,8 @@ body {
   transform: rotate(0); /* Somehow this makes the CPU load the background, which is faster. Why it does that? No idea. */
 }
 
-.splashbg:not(child):before {
+.splashbg:before {
     content: " ";
-    z-index: 1;
     display: block;
     position: absolute;
     height: 100vh;
@@ -54,6 +53,10 @@ body {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.75);
+}
+
+.splashbg:not(child):before {
+    z-index: 1;
 }
 
 .profilepic {
