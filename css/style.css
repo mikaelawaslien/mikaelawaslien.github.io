@@ -35,6 +35,7 @@ body {
 }
 
 .splashbg {
+  z-index: -1;
   height: 100vh; /* Specifying the width is not necessary here because the background-image property assumes it should take up as much as possible */  
   background-image: url(../images/BG.jpg);
   background-position: center center;/* This helps give the background a parallax-esque effect */   
