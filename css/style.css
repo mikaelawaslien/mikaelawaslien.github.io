@@ -14,8 +14,6 @@
 ===================================*/
 
 body {
-    background-image: url("../images/BG.jpg");
-	background-color: #F5F5F5;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	color: #707070;
@@ -35,6 +33,53 @@ body {
     cursor: pointer;
 }
 
+.splashbg {
+  height: 100vh; /* Specifying the width is not necessary here because the background-image property assumes it should take up as much as possible */  
+  background-image: url(../images/BG.jpg);
+  background-position: center center;/* This helps give the background a parallax-esque effect */   
+  background-repeat: no-repeat; /* This makes the background repeat as many times as neccesary to fill the specified size */
+  background-attachment: fixed; /* This helps give the background a parallax-esque effect */
+  background-color: #464646;
+  transform: rotate(0); /* Somehow this makes the CPU load the background, which is faster. Why it does that? No idea. */
+}
+
+.splashbg:after {
+    content: " ";
+    z-index: -1;
+    display: block;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.profilepic {
+    display:none;
+    border-radius: 50%;
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -244px;
+}
+
+.liberum {
+    color: white;
+    text-transform: uppercase;
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -232.211px; 
+    /* This makes the center of .liberum the origin's y-coordinate */
+    margin-top: -34.5px; 
+    /* This makes the center of .liberum the origin's x-coordinate */
+}
+
 .navbar li {
     display: block;
     float: left;
@@ -46,13 +91,19 @@ body {
     padding: 10px;
     margin-left: 0px;
     margin-right: -4px;
-    margin-top: 57px;
-    color: #730000;
+    /* margin-top: 57px; Move towards 57px*/
+    color: white;
+}
+
+.navbar {
+    float: right;
+    margin-right: 57px;
+    margin-top: -57px;
 }
 
 .navbar li:hover, a:hover {
-    background-color: #730000; /* originally #002165*/
-    color: #F5F5F5;
+    background-color: white; /* originally #002165*/
+    color: black;
 } 
 
 .whitebg {
