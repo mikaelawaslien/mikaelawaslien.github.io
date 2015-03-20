@@ -106,19 +106,6 @@ body {
     color: black;
 } 
 
-.whitebg {
-    background-color: #F5F5F5;
-}
-
-.redbg {
-    display: flex;
-    height: 150px;
-    background-color: #F5F5F5;
-    margin-left: -30px;
-    margin-right: -30px;
-    box-shadow: 0px 10px 25px -7px black;
-}
-
 /*===================================*/
 
 .text-muted {
