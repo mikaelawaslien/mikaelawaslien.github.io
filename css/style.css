@@ -58,7 +58,7 @@ body {
 .profilepic {
     display:none;
     border-radius: 50%;
-    position: fixed;
+    position: absolute; /* Used to be fixed, but breaks mobile. Separate css file needed? */
     height: 200px;
     width: 200px;
     left: 50%;
@@ -71,7 +71,7 @@ body {
     color: white;
     text-transform: uppercase;
     display: none;
-    position: fixed;
+    position: absolute;
     left: 50%;
     top: 50%;
     margin-left: -232.211px; 
