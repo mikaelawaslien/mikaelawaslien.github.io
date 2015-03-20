@@ -45,7 +45,7 @@ body {
   transform: rotate(0); /* Somehow this makes the CPU load the background, which is faster. Why it does that? No idea. */
 }
 
-.splashbg:after:not(child) {
+.splashbg:before:not(child) {
     z-index: 2;
     content: " ";
     display: block;
