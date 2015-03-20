@@ -44,7 +44,7 @@ body {
 }
 
 .splashbg:before:not(child) {
-    z-index: 2;
+    z-index: -2;
     content: " ";
     display: block;
     position: absolute;
