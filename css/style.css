@@ -50,6 +50,10 @@ body {
            Splash Screen
 ===================================*/
 
+.splashbg:not(child, .splashbg:after) {
+    z-index: -2;
+}
+
 .splashbg {
   height: 100vh; /* Specifying the width is not necessary here because the background-image property assumes it should take up as much as possible */  
   background-image: url(../images/BG.jpg);
@@ -71,10 +75,6 @@ body {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.75);
-}
-
-.splashbg:not(child, .splashbg:after) {
-    z-index: -2;
 }
 
 .profilepic {
