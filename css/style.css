@@ -18,7 +18,6 @@ body {
 	font-weight: 400;
 	color: #707070;
        overflow-x: hidden;
-       z-index: 2;
 }
 
 *a {
@@ -58,12 +57,13 @@ body {
   background-repeat: no-repeat; /* This makes the background repeat as many times as neccesary to fill the specified size */
   background-attachment: fixed; /* This helps give the background a parallax-esque effect */
   background-color: #464646;
+  z-index: -2;
   transform: rotate(0); /* Somehow this makes the CPU load the background, which is faster. Why it does that? No idea. */
 }
 
 .splashbg:after {
     content: " ";
-    z-index: 1;
+    z-index: -1;
     display: block;
     position: absolute;
     height: 100vh;
