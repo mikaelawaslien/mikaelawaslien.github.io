@@ -62,7 +62,7 @@ body {
 
 .splashbg:after {
     content: " ";
-    z-index: -2;
+    z-index: 1;
     display: block;
     position: absolute;
     height: 100vh;
