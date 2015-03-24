@@ -73,7 +73,9 @@ body {
     z-index: -1;
 }
 
-.splashbg 
+.splashbg div, nav, img {
+    z-index: 1;
+}
 
 .profilepic {
     display: none;
