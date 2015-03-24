@@ -75,11 +75,7 @@ body {
 .profilepic {
     display: none;
     border-radius: 50%;
-<<<<<<< HEAD
     position: absolute; /* Used to be fixed, but breaks mobile. Separate css file needed? */
-=======
-    position: absolute;
->>>>>>> origin/gh-pages
     height: 200px;
     width: 200px;
     left: 50%;
