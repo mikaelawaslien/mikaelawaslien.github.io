@@ -72,7 +72,7 @@ body {
     background: rgba(0, 0, 0, 0.75);
 }
 
-.splashbg:not(child) {
+.splashbg:not(child, after) {
     z-index: -1;
 }
 
