@@ -50,9 +50,6 @@ body {
            Splash Screen
 ===================================*/
 
-.splashbg:not(child, .splashbg:after) {
-    z-index: -2;
-}
 
 .splashbg {
   height: 100vh; /* Specifying the width is not necessary here because the background-image property assumes it should take up as much as possible */  
@@ -63,6 +60,11 @@ body {
   background-color: #464646;
   position: absolute;
   transform: rotate(0); /* Somehow this makes the CPU load the background, which is faster. Why it does that? No idea. */
+}
+
+
+.splashbg:not(child, .splashbg:after) {
+    z-index: -2;
 }
 
 .splashbg:after {
