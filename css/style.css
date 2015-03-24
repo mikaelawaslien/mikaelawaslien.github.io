@@ -57,6 +57,7 @@ body {
   background-repeat: no-repeat; /* This makes the background repeat as many times as neccesary to fill the specified size */
   background-attachment: fixed; /* This helps give the background a parallax-esque effect */
   background-color: #464646;
+  position: absolute;
   transform: rotate(0); /* Somehow this makes the CPU load the background, which is faster. Why it does that? No idea. */
 }
 
