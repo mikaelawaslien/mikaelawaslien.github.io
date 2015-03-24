@@ -73,7 +73,7 @@ body {
     z-index: -1;
 }
 
-.splashbg div, nav, img {
+.splashbg child {
     z-index: 1;
 }
 
