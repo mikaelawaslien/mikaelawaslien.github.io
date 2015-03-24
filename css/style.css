@@ -73,10 +73,6 @@ body {
     z-index: 1;
 }
 
-.splashbg child {
-    z-index: 0;
-}
-
 .profilepic {
     display: none;
     border-radius: 50%;
