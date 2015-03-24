@@ -73,6 +73,10 @@ body {
     z-index: 1;
 }
 
+.znormalize {
+    z-index: 0;
+}
+
 .profilepic {
     display: none;
     border-radius: 50%;
