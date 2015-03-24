@@ -9,39 +9,58 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
     <link href="css/query.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="js/desktop.js"></script>
   </head>
 
   <body>
       
-      <div class="container-fluid splashbg"> 
+      <header class="container-fluid splashbg"> 
       
           <nav class="navbar" id="ihatejquery">
               <ul>
-                  <li class="unselectable" onclick="location.href = 'test.html';">Home</li>
-                  <li class="unselectable" onclick="location.href = 'test.html';">Twitter</li>
-                  <li class="unselectable" onclick="location.href = 'http://instagram.com/mikaelas_lonely_portfolio/';">Instagram</li>
-                  <li class="unselectable" onclick="location.href = 'https://www.facebook.com/mikaela.was';">Facebook</li>
+                  <li class="unselectable_link" onclick="location.href = 'test.html';">Home</li>
+                  <li class="unselectable_link" onclick="location.href = 'test.html';">Twitter</li>
+                  <li class="unselectable_link" onclick="location.href = 'http://instagram.com/mikaelas_lonely_portfolio/';">Instagram</li>
+                  <li class="unselectable_link" onclick="location.href = 'https://www.facebook.com/mikaela.was';">Facebook</li>
               </ul>
           </nav>
           
-          <div class="profilepicdiv">
+          <div class="profilepicdiv unselectable">
             <img class="profilepic"  id="thirdtimesthecharm" src="images/profilepic-2-whitebg-white-outline.png">
           </div>
           
-          <div class="liberum"  id="ilovejquery">
+          <div class="liberum unselectable"  id="ilovejquery">
             <h1>This is my art portfolio.</h1>
           </div>
           
-      </div>
+          <div class="chevron_bar">
+            <div class="chevron_down">
+                <img id="chevron_1" src="images/Chevron-Down.png">
+            </div>
+          </div>
+          
+          <div class="bg-overlay"></div>
+          <div class="bg">
+          </div>
+          
+      </header>
        
+      
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <img class="img-responsive featuredartwork" src="images/paulandmikaela-long.jpg">
+        <div class="row">
+            <div id="chevron_1_scrollto" class="col-md-12">
+                <p class="tsize30 tcenter m0-30-30-30">I'm a 16 year old high schooler who dabbles in artistic medias. IB/AP art kid. Watercolor, ink, acrylic, charcoal, pencil.</p>
+                <h1 class="tsize50 tcenter m0-30-30-30">And this is my art.</h1>
+            </div>
         </div>
-      </div>
+    </div>
+      
+    <div class="fluid-container art1">
+        <!--This doesn't need content, defined in css-->
+    </div>  
 
+    <div class="container">
+      
       <div class="row">
         <div class="col-md-12">
           <h2 class="text-uppercase featuredwork">Featured Work</h2>
@@ -75,6 +94,13 @@
       </div>
 
     </div>
+      
+    <footer id="footer">
+      
+        <div class="darkoverlay"></div>
+        <div class="background"></div>
+        
+    </footer>
 
   </body>
 </html>
