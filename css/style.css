@@ -58,7 +58,7 @@ body {
   background-attachment: fixed; /* This helps give the background a parallax-esque effect */
   background-color: #464646;
   transform: rotate(0); /* Somehow this makes the CPU load the background, which is faster. Why it does that? No idea. */
-  z-index: -1;
+  z-index: -2;
 }
 
 .splashbg:after {
@@ -70,7 +70,10 @@ body {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.75);
+    z-index: -1;
 }
+
+.splashbg 
 
 .profilepic {
     display: none;
