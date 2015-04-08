@@ -96,8 +96,8 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-left: -232.211px; 
-    /* This makes the center of .liberum the origin's y-coordinate */
+    margin-left: 10%; 
+    /* This makes the center of .liberum the origin's y-coordinate Used to be -232.211 */
     margin-top: -34.5px; 
     /* This makes the center of .liberum the origin's x-coordinate */
 }
