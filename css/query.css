@@ -1,1 +1,2 @@
-@import url('style.css') screen and (min-width: 100px);
+@import url('style.css') screen and (min-width: 1000px);
+@import url('mobile.css') screen and (min-width: 100px);
