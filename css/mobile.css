@@ -81,8 +81,8 @@ body {
     display: none;
     border-radius: 50%;
     position: absolute; /* Used to be fixed, but breaks mobile. Separate css file needed? */
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     left: 50%;
     top: 50%;
     margin-left: -100px;
