@@ -119,7 +119,7 @@ body {
 
 .navbar {
     float: right;
-    margin-right: 57px;
+    margin-right: 0px; /* Was 57*/
     margin-top: -57px;
 }
 
