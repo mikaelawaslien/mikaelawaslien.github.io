@@ -63,7 +63,7 @@ body {
 
 .splashbg:after {
     content: " ";
-    display: block;
+    display: inline;
     position: absolute;
     height: 100vh;
     top: 0;
