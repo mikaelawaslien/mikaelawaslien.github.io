@@ -13,38 +13,33 @@
 
 ===================================*/
 
-body {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	color: #707070;
-       overflow-x: hidden;
-}
+body
+    font-family: 'Roboto', sans-serif
+    font-weight: 400
+    color: #707070
+    overflow-x: hidden
 
-*a {
-    text-decoration: none;
-}
+*a
+    text-decoration: none
 
-.unselectable_link {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    cursor: pointer;
-}
+.unselectable_link
+    -webkit-touch-callout: none
+    -webkit-user-select: none
+    -khtml-user-select: none
+    -moz-user-select: none
+    -ms-user-select: none
+    user-select: none
+    cursor: pointer
 
-.unselectable {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    cursor: default;
-    pointer-events: none;
-}
-
+.unselectable
+    -webkit-touch-callout: none
+    -webkit-user-select: none
+    -khtml-user-select: none
+    -moz-user-select: none
+    -ms-user-select: none
+    user-select: none
+    cursor: default
+    pointer-events: none
 
 /*===================================
            Splash Screen
