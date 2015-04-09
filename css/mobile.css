@@ -17,7 +17,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	color: #707070;
-    overflow-x: hidden;
+       overflow-x: hidden;
 }
 
 *a {
@@ -58,11 +58,11 @@ body {
   background-attachment: fixed; /* This helps give the background a parallax-esque effect */
   background-color: #464646;
   transform: rotate(0); /* Somehow this makes the CPU load the background, which is faster. Why it does that? No idea. */
+  z-index: -2;
 }
 
 .splashbg:after {
     content: " ";
-    z-index: -1;
     display: block;
     position: absolute;
     height: 100vh;
@@ -70,18 +70,23 @@ body {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.75);
+    z-index: -1;
+}
+
+.znormalize {
+    z-index: 10;
 }
 
 .profilepic {
     display: none;
     border-radius: 50%;
-    position: absolute;
-    height: 200px;
-    width: 200px;
+    position: absolute; /* Used to be fixed, but breaks mobile. Separate css file needed? */
+    height: 100px;
+    width: 100px;
     left: 50%;
     top: 50%;
-    margin-left: -100px;
-    margin-top: -244px;
+    margin-left: -50px;
+    margin-top: -122px;
 }
 
 .liberum {
@@ -91,8 +96,8 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-left: -232.211px; 
-    /* This makes the center of .liberum the origin's y-coordinate */
+    margin-left: -232.211; 
+    /* This makes the center of .liberum the origin's y-coordinate  */
     margin-top: -34.5px; 
     /* This makes the center of .liberum the origin's x-coordinate */
 }
@@ -114,7 +119,7 @@ body {
 
 .navbar {
     float: right;
-    margin-right: 57px;
+    margin-right: 0px; /* Was 57*/
     margin-top: -57px;
 }
 
@@ -263,5 +268,4 @@ body {
 	margin-top: 25px;
 	margin-bottom: 5px;
 }
-
 
