@@ -91,7 +91,7 @@ body {
 .liberum {
     color: white;
     text-transform: uppercase;
-    text-alignment: center;
+    text-size: .75em
     display: none;
     position: absolute;
     left: 50vw;
