@@ -3,8 +3,6 @@
 
 $(document).ready(function readyfreddy() {
     
-    $('body').flowtype();
-    
     "use strict";
     $(".navbar").ready(function movedown() {
         $("#ihatejquery")
