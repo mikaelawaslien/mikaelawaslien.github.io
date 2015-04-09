@@ -79,7 +79,6 @@ body {
 
 .profilepic {
     display: none;
-    border-radius: 50%;
     position: absolute; /* Used to be fixed, but breaks mobile. Separate css file needed? */
     height: 100px;
     width: 100px;
