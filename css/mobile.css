@@ -77,18 +77,18 @@ body {
     z-index: 10;
 }
 
-.profilepic {
-    display: none;
-    position: absolute; /* Used to be fixed, but breaks mobile. Separate css file needed? */
-    height: 100px;
-    width: 100px;
-}
-
 .profilepicdiv {
     left: 50%;
     top: 30%;
     margin-left: -50px;
     margin-top: -50px;
+}
+
+.profilepic {
+    display: none;
+    position: absolute; /* Used to be fixed, but breaks mobile. Separate css file needed? */
+    height: 100px;
+    width: 100px;
 }
 
 .liberum {
