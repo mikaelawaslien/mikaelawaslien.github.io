@@ -50,7 +50,7 @@ body {
            Splash Screen
 ===================================*/
 
-.splashbg {
+.splashbg 
   height: 100vh; /* Specifying the width is not necessary here because the background-image property assumes it should take up as much as possible */  
   background-image: url(../images/BG.jpg);
   background-position: center center;/* This helps give the background a parallax-esque effect */   
@@ -59,7 +59,7 @@ body {
   background-color: #464646;
   transform: rotate(0); /* Somehow this makes the CPU load the background, which is faster. Why it does that? No idea. */
   z-index: -2;
-}
+
 
 .splashbg:after {
     content: " ";
