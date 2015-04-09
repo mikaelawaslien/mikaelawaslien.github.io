@@ -47,7 +47,7 @@ body
 
 <<<<<<< HEAD
 .splashbg 
-  height: 100vh /* Specifying the width is not necessary here because the background-image property assumes it should take up as much as possible */  
+  height: 100vh; /* Specifying the width is not necessary here because the background-image property assumes it should take up as much as possible */  
   background-image: url(../images/BG.jpg)
   background-position: center center/* This helps give the background a parallax-esque effect */   
   background-repeat: no-repeat /* This makes the background repeat as many times as neccesary to fill the specified size */
@@ -57,6 +57,7 @@ body
   z-index: -2
 
 
+<<<<<<< HEAD
 .splashbg:after
     content: " "
     display: block
@@ -93,6 +94,8 @@ body
   z-index: -2;
 }
 
+=======
+>>>>>>> parent of 126c194... I feel abusive stripping my CSS down like this ;_;
 .splashbg:after {
     content: " ";
     display: block;
@@ -120,7 +123,10 @@ body
     margin-left: -100px;
     margin-top: -244px;
 }
+<<<<<<< HEAD
 >>>>>>> parent of ac26b62... Testing stylus.js
+=======
+>>>>>>> parent of 126c194... I feel abusive stripping my CSS down like this ;_;
 
 .liberum {
     color: white;
