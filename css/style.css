@@ -46,7 +46,7 @@ body
 ===================================*/
 
 .splashbg 
-  height: 100vh; /* Specifying the width is not necessary here because the background-image property assumes it should take up as much as possible */  
+  height: 100vh /* Specifying the width is not necessary here because the background-image property assumes it should take up as much as possible */  
   background-image: url(../images/BG.jpg)
   background-position: center center/* This helps give the background a parallax-esque effect */   
   background-repeat: no-repeat /* This makes the background repeat as many times as neccesary to fill the specified size */
@@ -56,33 +56,30 @@ body
   z-index: -2
 
 
-.splashbg:after {
-    content: " ";
-    display: block;
-    position: absolute;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.75);
-    z-index: -1;
-}
+.splashbg:after
+    content: " "
+    display: block
+    position: absolute
+    height: 100vh
+    top: 0
+    left: 0
+    right: 0
+    background: rgba(0, 0, 0, 0.75)
+    z-index: -1
 
-.znormalize {
-    z-index: 10;
-}
+.znormalize 
+    z-index: 10
 
-.profilepic {
-    display: none;
-    border-radius: 50%;
-    position: absolute; /* Used to be fixed, but breaks mobile. Separate css file needed? */
-    height: 200px;
-    width: 200px;
-    left: 50%;
-    top: 50%;
-    margin-left: -100px;
-    margin-top: -244px;
-}
+.profilepic
+    display: none
+    border-radius: 50%
+    position: absolute /* Used to be fixed, but breaks mobile. Separate css file needed? */
+    height: 200px
+    width: 200px
+    left: 50%
+    top: 50%
+    margin-left: -100px
+    margin-top: -244px
 
 .liberum {
     color: white;
